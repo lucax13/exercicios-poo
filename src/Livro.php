@@ -6,17 +6,24 @@ class Livro
     private string $autor;
     private int $paginas;
 
-    public function setTitulo(string $titulo): void
+    public function __construct(string $titulo, string $autor, int $paginas)
+    {
+        $this->setTitulo($titulo);
+        $this->setAutor($autor);
+        $this->setPaginas($paginas);
+    }
+
+    private function setTitulo(string $titulo): void
     {
         $this-> titulo = $titulo;
     }
 
-    public function setAutor(string $autor): void
+    private function setAutor(string $autor): void
     {
         $this-> autor = $autor;
     }
  
-    public function setPaginas(int $paginas): void
+    private function setPaginas(int $paginas): void
     {
         $this->paginas = $paginas;
     }

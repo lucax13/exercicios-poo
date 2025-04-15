@@ -1,13 +1,19 @@
 # Exercícios de PHP com POO
-Adapte a classe Livro aplicando a ela um método construtor.
 
-Faça o construtor receber os parâmetros necessários para inicialização dos objetos.
+## exercicio 02
 
-Mude a visibilidade dos setters para private.
+1) Adapte a classe Livro aplicando a ela um método construtor.
 
-Na index, ajuste o objeto existente para que ele use o construtor passando os dados diretamente.
+2) Faça o construtor receber os parâmetros necessários para inicialização dos objetos.
+
+3) Mude a visibilidade dos setters para private.
+
+4) Na index, ajuste o objeto existente para que ele use o construtor passando os dados diretamente.
 
 Também na index retire os setters.
+
+
+
 ## Exercício 01
 
 1) Analise o diagrama abaixo e programe a Classe `Livro` no PHP dentro de uma nova pasta `src`.

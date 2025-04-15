@@ -12,11 +12,9 @@
 
 <?php
 require_once "src/Livro.php";
-$livro = new Livro();
+$livro = new Livro("Mundial do palmeiras", "heloisa", 100);
 
-$livro->setTitulo("Mundial do Palmeiras");
-$livro->setAutor("Fulano");
-$livro->setPaginas(100);
+
 ?>
 
 <h2>Acessando/lendo os dados dos objetos</h2>
@@ -27,7 +25,6 @@ $livro->setPaginas(100);
     <li><b>Páginas: <?=$livro->getPaginas()?> </b></li>
 </ul>
 
-<pre><?=var_dump($livro)?></pre>
 
 </body>
 </html>
