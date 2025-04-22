@@ -12,7 +12,7 @@
 
 <?php
 require_once "src/Livro.php";
-$livro = new Livro("Mundial do palmeiras", "heloisa", 100);
+$livro = new Livro(" As cronicas de narnia", " Heloisa", 100);
 
 
 ?>
@@ -22,7 +22,6 @@ $livro = new Livro("Mundial do palmeiras", "heloisa", 100);
 <ul>
     <li><b>Titulo: <?=$livro->getTitulo()?> </b></li>
     <li><b>Autor:<?=$livro->getAutor()?> </b></li>
-    <li><b>Páginas: <?=$livro->getPaginas()?> </b></li>
 </ul>
 
 
