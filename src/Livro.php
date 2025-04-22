@@ -21,8 +21,6 @@ class Livro
         $this-> autor = $autor;
     }
  
-    
-
     public function getTitulo(): string
     {
         return $this-> titulo;
