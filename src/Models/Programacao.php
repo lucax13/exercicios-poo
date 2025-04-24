@@ -1,5 +1,5 @@
 <?php
-class Progrmacao extends Tecnico {
+class Programacao extends Tecnico {
     private  string $linguagem;
 
     public function __construct(string $titulo, string $autor, string $linguagem, Formato $formato)

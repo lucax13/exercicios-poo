@@ -11,18 +11,18 @@
     <p><i>Faça as chamadas e testes nesta página</i></p>
 
 <?php
-require_once "src/Livro.php";
-require_once "src/Literario.php";
-require_once "src/enums/genero.php";
-require_once "src/Tecnico.php";
-require_once "src/Progrmacao.php";
-require_once "src/enums/Formato.php";
+require_once "src/Enums/Formato.php";
+require_once "src/Enums/Genero.php";
+require_once "src/Models/Livro.php";
+require_once "src/Models/Literario.php";
+require_once "src/Models/Tecnico.php";
+require_once "src/Models/Programacao.php";
 
 $literario = new Literario("incrivel mundo de bob", "Pietro lima", Genero::Aventura);
 
 $tecnico = new Tecnico("Tecnologo de programas de maquina", "tiago binho", Formato::Digital);
 
-$progrmacao = new Progrmacao("Desenvolvedor C++", "Miranda Binho", "C++", Formato::Fisico);
+$progrmacao = new Programacao("Desenvolvedor C++", "Miranda Binho", "C++", Formato::Fisico);
 ?>
 
 <h2>Acessando/lendo os dados dos objetos</h2>
